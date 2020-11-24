@@ -37,6 +37,12 @@ section {
   transition: all 0.2s linear;
 }
 
+.hover-box:hover img,
+.hover-box:focus img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
 .hover-box:hover h2,
 .hover-box:focus h2 {
   bottom: 0;
